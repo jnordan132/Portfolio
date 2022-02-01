@@ -1,10 +1,8 @@
-import react from "react";
-
 function About() {
   return (
-    <div>
+    <div className="about">
       <h1>About Me</h1>
-      <p>
+      <p className="description">
         Hi! My name is Jacob Nordan, I'm from Wilmington, NC, and I recently
         attended and completed the University of North Carolina at Chapel Hill's
         Coding Bootcamp with an A+. I mainly use the MERN tech stack due to its

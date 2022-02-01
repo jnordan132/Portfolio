@@ -1,19 +1,8 @@
-const styles = {
-  contact: {
-    marginBottom: "3%",
-  },
-  list: {
-    listStyle: "none",
-    padding: "0",
-    margin: "0",
-  },
-};
-
 function Contact() {
   return (
-    <div style={styles.contact}>
+    <div className="contact">
       <h1>Contact Me</h1>
-      <ul style={styles.list}>
+      <ul className="contactInfo">
         <li>
           Email:
           <a href="mailto:jacob.nordan113322@gmail.com">

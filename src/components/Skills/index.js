@@ -1,36 +1,23 @@
-const styles = {
-  list: {
-    listStyle: "none",
-    textAlign: "center",
-    margin: "0",
-    padding: "2%",
-  },
-  flex: {
-    display: "flex",
-    justifyContent: "center",
-  },
-};
-
 function Skills() {
   return (
-    <div>
+    <div className="skills">
       <h1>My Skills</h1>
-      <div style={styles.flex}>
-        <ul style={styles.list}>
+      <div className="listFlex">
+        <ul className="list">
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
           <li>Bootstrap</li>
           <li>Material.UI</li>
         </ul>
-        <ul style={styles.list}>
+        <ul className="list">
           <li>React.JS</li>
           <li>Express.JS</li>
           <li>Node.JS</li>
           <li>Redux</li>
           <li>jQuery</li>
         </ul>
-        <ul style={styles.list}>
+        <ul className="list">
           <li>MongoDB</li>
           <li>MySQL</li>
           <li>NoSQL</li>

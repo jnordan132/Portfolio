@@ -1,16 +1,8 @@
-const styles = {
-  card: {
-    display: "flex",
-    marginLeft: "5%",
-    marginRight: "5%",
-  },
-};
-
 function Portfolio() {
   return (
-    <div>
+    <div className="portfolio">
       <h1>My Portfolio</h1>
-      <div style={styles.card}>
+      <div className="cardDiv">
         <div className="card">
           <img
             src="https://cdn.pixabay.com/photo/2019/12/19/00/17/black-and-white-4705121_1280.jpg"
@@ -56,7 +48,7 @@ function Portfolio() {
           <button>Site</button>
         </div>
       </div>
-      <div style={styles.card}>
+      <div className="cardDiv">
         <div className="card">
           <img
             src="https://cdn.pixabay.com/photo/2019/12/19/00/17/black-and-white-4705121_1280.jpg"
