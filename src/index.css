@@ -104,6 +104,7 @@
 
 .cardDiv {
   display: flex;
+  flex-wrap: wrap;
   flex: 1 4 auto;
   margin-left: 1.5%;
   margin-right: 1.5%;
@@ -240,11 +241,17 @@
   }
   .cardDiv {
     flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .card {
+    margin-bottom: 9%;
   }
   .buttons {
     margin-bottom: 3%;
+    font-size: 8px;
+    padding: 8px;
   }
   .aboutSkills {
     flex-direction: column;
@@ -254,6 +261,7 @@
     width: 90%;
   }
   .footer {
+    position: absolute;
     height: 1.5%;
   }
 }
