@@ -1,23 +1,53 @@
+import {
+  FaGithub,
+  FaLinkedin,
+  FaClipboardList,
+  FaEnvelope,
+} from "react-icons/fa";
+
+const styles = {
+  listItem: {
+    height: "150%",
+    width: "150%",
+  },
+};
+
 function Contact() {
   return (
     <div className="contact">
       <h1>Contact Me</h1>
       <ul className="contactInfo">
         <li>
-          Email:
-          <a href="mailto:jacob.nordan113322@gmail.com">
-            jacob.nordan113322@gmail.com
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/jnordan132"
+          >
+            <FaGithub style={styles.listItem} />
           </a>
         </li>
         <li>
-          Github: <a href="https://github.com/jnordan132">Github</a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/jacob-nordan/"
+          >
+            <FaLinkedin style={styles.listItem} />
+          </a>
         </li>
         <li>
-          LinkedIn:
-          <a href="https://www.linkedin.com/in/jacob-nordan/">LinkedIn</a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="mailto:jacob.nordan113322@gmail.com"
+          >
+            <FaEnvelope style={styles.listItem} />
+          </a>
         </li>
         <li>
-          Resume: <a href="">PDF</a>
+          <a target="_blank" rel="noreferrer" href="">
+            <FaClipboardList style={styles.listItem} />
+          </a>
         </li>
       </ul>
     </div>

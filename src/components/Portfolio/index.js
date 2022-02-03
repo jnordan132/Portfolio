@@ -11,8 +11,10 @@ function Portfolio() {
           <p>
             <strong>Project Name</strong>
           </p>
-          <button>Code</button>
-          <button>Site</button>
+          <div className="buttons">
+            <button className="code">Code</button>
+            <button className="site">Site</button>
+          </div>
         </div>
         <div className="card">
           <img
@@ -22,8 +24,10 @@ function Portfolio() {
           <p>
             <strong>Project Name</strong>
           </p>
-          <button>Code</button>
-          <button>Site</button>
+          <div className="buttons">
+            <button className="code">Code</button>
+            <button className="site">Site</button>
+          </div>
         </div>
         <div className="card">
           <img
@@ -33,8 +37,10 @@ function Portfolio() {
           <p>
             <strong>Project Name</strong>
           </p>
-          <button>Code</button>
-          <button>Site</button>
+          <div className="buttons">
+            <button className="code">Code</button>
+            <button className="site">Site</button>
+          </div>
         </div>
         <div className="card">
           <img
@@ -44,8 +50,10 @@ function Portfolio() {
           <p>
             <strong>Project Name</strong>
           </p>
-          <button>Code</button>
-          <button>Site</button>
+          <div className="buttons">
+            <button className="code">Code</button>
+            <button className="site">Site</button>
+          </div>
         </div>
       </div>
       <div className="cardDiv">
@@ -57,8 +65,10 @@ function Portfolio() {
           <p>
             <strong>Project Name</strong>
           </p>
-          <button>Code</button>
-          <button>Site</button>
+          <div className="buttons">
+            <button className="code">Code</button>
+            <button className="site">Site</button>
+          </div>
         </div>
         <div className="card">
           <img
@@ -68,8 +78,10 @@ function Portfolio() {
           <p>
             <strong>Project Name</strong>
           </p>
-          <button>Code</button>
-          <button>Site</button>
+          <div className="buttons">
+            <button className="code">Code</button>
+            <button className="site">Site</button>
+          </div>
         </div>
         <div className="card">
           <img
@@ -79,8 +91,10 @@ function Portfolio() {
           <p>
             <strong>Project Name</strong>
           </p>
-          <button>Code</button>
-          <button>Site</button>
+          <div className="buttons">
+            <button className="code">Code</button>
+            <button className="site">Site</button>
+          </div>
         </div>
         <div className="card">
           <img
@@ -90,8 +104,10 @@ function Portfolio() {
           <p>
             <strong>Project Name</strong>
           </p>
-          <button>Code</button>
-          <button>Site</button>
+          <div className="buttons">
+            <button className="code">Code</button>
+            <button className="site">Site</button>
+          </div>
         </div>
       </div>
     </div>
