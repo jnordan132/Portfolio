@@ -1,112 +1,117 @@
+import shoeFanatic from "../../assets/Shoe-Fanatic.png";
+import fitness from "../../assets/fitness.jpg";
+import Feedit from "../../assets/Feedit.png";
+import terminal from "../../assets/employeeTracker.jpg";
+import weather from "../../assets/weather.png";
+import readmeGen from "../../assets/readmeGen.png";
+import quiz from "../../assets/codeQuiz.png";
+
 function Portfolio() {
   return (
-    <div className="portfolio">
+    <div className="portfolio" style={{ transform: 'translateY('}}>
       <h1>My Portfolio</h1>
       <div className="cardDiv">
         <div className="card">
           <img
-            src="https://cdn.pixabay.com/photo/2019/12/19/00/17/black-and-white-4705121_1280.jpg"
-            alt=""
+            src={shoeFanatic}
+            alt="Shoe Fanatic"
           ></img>
-          <p>
-            <strong>Project Name</strong>
-          </p>
+          <h2>
+            <strong>Shoe Fanatic</strong>
+          </h2>
           <div className="buttons">
-            <button className="code">Code</button>
-            <button className="site">Site</button>
+            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/Shoe-Fanatic">Code</a></button>
+            <button className="site"><a target="_blank" rel="noopener noreferrer"href="https://limitless-bastion-50224.herokuapp.com/">Site</a></button>
           </div>
         </div>
         <div className="card">
           <img
-            src="https://cdn.pixabay.com/photo/2019/12/19/00/17/black-and-white-4705121_1280.jpg"
-            alt=""
+            src={Feedit}
+            alt="Feedit"
           ></img>
-          <p>
-            <strong>Project Name</strong>
-          </p>
+          <h2>
+            <strong>FEEDIT</strong>
+          </h2>
           <div className="buttons">
-            <button className="code">Code</button>
-            <button className="site">Site</button>
+            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/FEEDIT">Code</a></button>
+            <button className="site"><a target="_blank" rel="noopener noreferrer"href="https://jnordan132.github.io/FEEDIT/">Site</a></button>
           </div>
         </div>
         <div className="card">
           <img
-            src="https://cdn.pixabay.com/photo/2019/12/19/00/17/black-and-white-4705121_1280.jpg"
-            alt=""
+            src={quiz}
+            alt="Javascript Quiz"
           ></img>
-          <p>
-            <strong>Project Name</strong>
-          </p>
+          <h2>
+            <strong>JavaScript Quiz</strong>
+          </h2>
           <div className="buttons">
-            <button className="code">Code</button>
-            <button className="site">Site</button>
+            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/Javascript-Fundamentals-Quiz">Code</a></button>
+            <button className="site"><a target="_blank" rel="noopener noreferrer"href="https://jnordan132.github.io/Javascript-Fundamentals-Quiz/">Site</a></button>
           </div>
         </div>
         <div className="card">
           <img
-            src="https://cdn.pixabay.com/photo/2019/12/19/00/17/black-and-white-4705121_1280.jpg"
-            alt=""
+            src={terminal}
+            alt="Employee Tracker"
           ></img>
-          <p>
-            <strong>Project Name</strong>
-          </p>
+          <h2>
+            <strong>Employee Tracker</strong>
+          </h2>
           <div className="buttons">
-            <button className="code">Code</button>
-            <button className="site">Site</button>
+            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/Employee-Tracker">Code</a></button>
           </div>
         </div>
       </div>
       <div className="cardDiv">
-        <div className="card">
+      <div className="card">
           <img
-            src="https://cdn.pixabay.com/photo/2019/12/19/00/17/black-and-white-4705121_1280.jpg"
-            alt=""
+            src={weather}
+            alt="Weather Dashboard"
           ></img>
-          <p>
-            <strong>Project Name</strong>
-          </p>
+          <h2>
+            <strong>Weather Dashboard</strong>
+          </h2>
           <div className="buttons">
-            <button className="code">Code</button>
-            <button className="site">Site</button>
+            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://jnordan132.github/City-Weather-Dashboard/">Code</a></button>
+            <button className="site"><a target="_blank" rel="noopener noreferrer"href="https://jnordan132.github.io/City-Weather-Dashboard/">Site</a></button>
           </div>
         </div>
         <div className="card">
           <img
-            src="https://cdn.pixabay.com/photo/2019/12/19/00/17/black-and-white-4705121_1280.jpg"
-            alt=""
+            src={fitness}
+            alt="Fitness Tracker"
           ></img>
-          <p>
-            <strong>Project Name</strong>
-          </p>
+          <h2>
+            <strong>Fitness Tracker</strong>
+          </h2>
           <div className="buttons">
-            <button className="code">Code</button>
-            <button className="site">Site</button>
+            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/Fitness-Tracker">Code</a></button>
+            <button className="site"><a target="_blank" rel="noopener noreferrer"href="https://warm-wildwood-42692.herokuapp.com/">Site</a></button>
           </div>
         </div>
         <div className="card">
           <img
-            src="https://cdn.pixabay.com/photo/2019/12/19/00/17/black-and-white-4705121_1280.jpg"
-            alt=""
+            src={readmeGen}
+            alt="Feedit"
           ></img>
-          <p>
-            <strong>Project Name</strong>
-          </p>
+          <h2>
+            <strong>README.md Generator</strong>
+          </h2>
           <div className="buttons">
-            <button className="code">Code</button>
-            <button className="site">Site</button>
+            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/README-Generator-Node.js">Code</a></button>
           </div>
         </div>
         <div className="card">
           <img
-            src="https://cdn.pixabay.com/photo/2019/12/19/00/17/black-and-white-4705121_1280.jpg"
-            alt=""
+            src={terminal}
+            alt="Employee Tracker"
           ></img>
-          <p>
-            <strong>Project Name</strong>
-          </p>
+          <h2>
+            <strong>Employee Tracker</strong>
+          </h2>
           <div className="buttons">
-            <button className="code">Code</button>
-            <button className="site">Site</button>
+            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/Employee-Tracker">Code</a></button>
           </div>
         </div>
       </div>

@@ -140,9 +140,15 @@
   margin-top: 3%;
   margin-left: 3%;
   margin-right: 3%;
-  height: 70%;
-  width: 90%;
+  width: 92%;
+  height: 50%;
   border-radius: 15px;
+  max-width: 100%;
+  transition: 150ms;
+}
+
+.card img:hover {
+  transform: scale(1.01);
 }
 
 .card p {
@@ -151,6 +157,11 @@
 
 .buttons {
   margin-bottom: 8%;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: #0f4c75;
 }
 
 .card .code {
@@ -163,6 +174,7 @@
 
 .code:hover {
   transform: scale(1.05);
+  transition: 150ms;
 }
 
 .card .site {
@@ -175,6 +187,7 @@
 
 .site:hover {
   transform: scale(1.05);
+  transition: 150ms;
 }
 
 /* CONTACT SECTION */
@@ -238,6 +251,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  body, html {
+    overflow-x: hidden;
+  }
   .profilePicture {
     height: 95%;
     width: 95%;
