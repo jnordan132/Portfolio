@@ -5,10 +5,11 @@ import terminal from "../../assets/employeeTracker.jpg";
 import weather from "../../assets/weather.png";
 import readmeGen from "../../assets/readmeGen.png";
 import quiz from "../../assets/codeQuiz.png";
+import noteTaker from "../../assets/NoteTaker.png";
 
 function Portfolio() {
   return (
-    <div className="portfolio" style={{ transform: 'translateY('}}>
+    <div className="portfolio">
       <h1>My Portfolio</h1>
       <div className="cardDiv">
         <div className="card">
@@ -52,14 +53,15 @@ function Portfolio() {
         </div>
         <div className="card">
           <img
-            src={terminal}
-            alt="Employee Tracker"
+            src={noteTaker}
+            alt="Weather Dashboard"
           ></img>
           <h2>
-            <strong>Employee Tracker</strong>
+            <strong>Note Taker</strong>
           </h2>
           <div className="buttons">
-            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/Employee-Tracker">Code</a></button>
+            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/Note-Taker">Code</a></button>
+            <button className="site"><a target="_blank" rel="noopener noreferrer"href="https://note-taker-jacobnordan.herokuapp.com/notes">Site</a></button>
           </div>
         </div>
       </div>
@@ -73,7 +75,7 @@ function Portfolio() {
             <strong>Weather Dashboard</strong>
           </h2>
           <div className="buttons">
-            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://jnordan132.github/City-Weather-Dashboard/">Code</a></button>
+            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/City-Weather-Dashboard">Code</a></button>
             <button className="site"><a target="_blank" rel="noopener noreferrer"href="https://jnordan132.github.io/City-Weather-Dashboard/">Site</a></button>
           </div>
         </div>

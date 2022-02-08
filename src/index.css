@@ -1,64 +1,142 @@
 /* ABOUT SECTION */
 
+.nav {
+  height: 7.5vh;
+  padding-left: 15%;
+  padding-right: 15%;
+  border-bottom: 1px dotted white;
+  background-color: rgb(100, 159, 175);
+  display: flex;
+}
+
+.nav h1 {
+  margin: 0;
+  padding-top: 1.25%;
+  color: white;
+  cursor: default;
+}
+
+.nav ul {
+  padding-top: 1%;
+  display: flex;
+  list-style: none;
+}
+
+.nav li {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.nav a:hover {
+  opacity: .8;
+}
+
+.header {
+  height: 55vh;
+  padding-left: 20%;
+  padding-right: 20%;
+  background-color: rgb(100, 159, 175);
+  margin: 0;
+  display: flex;
+  margin-bottom: 3%;
+}
+
+.header h1 {
+  margin-top: 10%;
+  letter-spacing: 1.75px;
+  line-height: 1.25;
+  width: 50%;
+  font-size: 350%;
+}
+
+.header div {
+  padding-top: 5%;
+}
+
+.header a {
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  font-size: 40%;
+  opacity: .95;
+  text-decoration: none;
+  color: black;
+  padding: 2%;
+  margin-left: 32%;
+}
+
+.header a:hover {
+  opacity: .8;
+  transform: scale(1.02);
+  transition: 150ms;
+}
+
 .profilePicture {
-  height: 25%;
-  width: 25%;
+  margin-top: 7.5%;
+  height: 70%;
   border-radius: 50%;
-  border: 4px solid #0f4c75;
-  margin-left: 37.25%;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  border: 2px solid white;
+  margin-left: auto;
 }
 
 .about {
   text-align: center;
-  width: 30%;
-  background-color: #0f4c75;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+  width: 35%;
+  /* background-color: rgb(100, 159, 175); */
+  color: black;
+  /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
     0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11),
-    0 8px 16px rgba(0, 0, 0, 0.11);
+    0 8px 16px rgba(0, 0, 0, 0.11); */
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
   transition: 150ms;
-  border-top: 1px solid rgb(0, 0, 0, 0.11);
+  /* border-top: 1px solid rgb(0, 0, 0, 0.11); */
   margin-right: 3%;
 }
 
 .about h1 {
-  color: #ffffff;
+  color: #000000;
 }
 
 .description {
   margin-left: auto;
   margin-right: auto;
   width: 85%;
-  color: #ffffff;
+  color: #3a3a3a;
+  line-height: 150%;
+  font-size: 120%;
 }
 
 .aboutSkills {
   display: flex;
   justify-content: center;
+  margin-bottom: 3%;
 }
 
 /* SKILLS SECTION */
 
 .skills {
-  width: 30%;
-  background-color: #0f4c75;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+  width: 35%;
+  /* background-color: rgb(100, 159, 175); */
+  /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
     0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11),
-    0 8px 16px rgba(0, 0, 0, 0.11);
+    0 8px 16px rgba(0, 0, 0, 0.11); */
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
   transition: 150ms;
-  border-top: 1px solid rgb(0, 0, 0, 0.11);
+  /* border-top: 1px solid rgb(0, 0, 0, 0.11); */
 }
 
 .skills h1 {
   text-align: center;
-  color: #ffffff;
+  color: #000000;
 }
 
 .skills ul {
@@ -69,7 +147,9 @@
 }
 
 .skills li {
-  color: #ffffff;
+  color: #3a3a3a;
+  font-size: 130%;
+  line-height: 150%;
 }
 
 .list {
@@ -90,22 +170,12 @@
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 1.5%;
-  text-align: center;
-  flex: 1 1 20%;
-  background-color: #0f4c75;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
-    0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11),
-    0 8px 16px rgba(0, 0, 0, 0.11);
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-  transition: 150ms;
-  border-top: 1px solid rgb(0, 0, 0, 0.11);
+  margin-bottom: 3%;
 }
 
 .portfolio h1 {
-  color: #ffffff;
+  color: #000000;
+  text-align: center;
 }
 
 .card:hover {
@@ -125,7 +195,7 @@
   text-align: center;
   flex: 1 1 20%;
   margin: 8px;
-  background-color: #3282b8;
+  background-color: #ffffff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
     0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11),
     0 8px 16px rgba(0, 0, 0, 0.11);
@@ -197,7 +267,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 25%;
-  background-color: #0f4c75;
+  background-color: #ffffff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
     0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11),
     0 8px 16px rgba(0, 0, 0, 0.11);
@@ -206,9 +276,11 @@
   border-radius: 15px;
   transition: 150ms;
   border-top: 1px solid rgb(0, 0, 0, 0.11);
+  margin-bottom: 3%;
 }
+
 .contact h1 {
-  color: #ffffff;
+  color: #000000;
 }
 
 .contactInfo {
@@ -221,7 +293,7 @@
 
 .contactInfo a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 /* FOOTER SECTION */
@@ -230,7 +302,7 @@
   width: 100%;
   height: 8%;
   position: absolute;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(100, 159, 175);
 }
 
 .footer p {
@@ -241,12 +313,28 @@
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width: 1500px) {
+  .card {
+    flex: 1 1 40%;
+  }
+  .skills {
+    width: 40%;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .card {
-    flex: 1 1 30%;
+    flex: 1 1 40%;
   }
   .contact {
     width: 75%;
+  }
+  .about {
+    width: 45%
+  }
+  .skills {
+    width: 45%;
+    /* margin-left: 1%; */
   }
 }
 
@@ -255,9 +343,8 @@
     overflow-x: hidden;
   }
   .profilePicture {
-    height: 95%;
-    width: 95%;
-    margin-left: 1.5%;
+    height: 75%;
+    margin-left: 12%;
   }
   .about {
     width: 38%;
