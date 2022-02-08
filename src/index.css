@@ -167,9 +167,11 @@
 /* PORTFOLIO SECTION */
 
 .portfolio {
-  width: 90%;
+  width: auto;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 14%;
+  padding-right: 14%;
   margin-bottom: 3%;
 }
 
@@ -192,33 +194,32 @@
 
 .card {
   width: auto;
+  height: auto;
   text-align: center;
   flex: 1 1 20%;
   margin: 8px;
-  background-color: #ffffff;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+  background-color: rgb(100, 159, 175);
+  /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
     0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11),
-    0 8px 16px rgba(0, 0, 0, 0.11);
+    0 8px 16px rgba(0, 0, 0, 0.11); */
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
   transition: 150ms;
   border-top: 1px solid rgb(0, 0, 0, 0.11);
+  padding-top: 1.5%;
 }
 
 .card img {
-  margin-top: 3%;
   margin-left: 3%;
   margin-right: 3%;
-  width: 92%;
-  height: 50%;
-  border-radius: 15px;
+  width: 90%;
+  height: 100%;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
   max-width: 100%;
   transition: 150ms;
-}
-
-.card img:hover {
-  transform: scale(1.01);
+  box-shadow: 0 0px 8px rgba(0, 0, 0, .51), 0 2px 2px rgba(0, 0, 0, .0)
 }
 
 .card p {
