@@ -148,7 +148,7 @@
 
 .skills li {
   color: #3a3a3a;
-  font-size: 130%;
+  font-size: 120%;
   line-height: 150%;
 }
 
@@ -182,6 +182,7 @@
 
 .card:hover {
   transform: scale(1.02);
+  cursor: pointer;
 }
 
 .cardDiv {
@@ -222,45 +223,6 @@
   box-shadow: 0 0px 8px rgba(0, 0, 0, .51), 0 2px 2px rgba(0, 0, 0, .0)
 }
 
-.card p {
-  color: #ffffff;
-}
-
-.buttons {
-  margin-bottom: 8%;
-}
-
-.buttons a {
-  text-decoration: none;
-  color: #0f4c75;
-}
-
-.card .code {
-  border: none;
-  margin-right: 1%;
-  border-radius: 10px;
-  font-size: 17px;
-  padding: 8px;
-}
-
-.code:hover {
-  transform: scale(1.05);
-  transition: 150ms;
-}
-
-.card .site {
-  border: none;
-  margin-left: 1%;
-  border-radius: 10px;
-  font-size: 17px;
-  padding: 8px;
-}
-
-.site:hover {
-  transform: scale(1.05);
-  transition: 150ms;
-}
-
 /* CONTACT SECTION */
 
 .contact {
@@ -268,7 +230,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 25%;
-  background-color: #ffffff;
+  background-color: rgb(100, 159, 175);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
     0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11),
     0 8px 16px rgba(0, 0, 0, 0.11);
@@ -281,7 +243,7 @@
 }
 
 .contact h1 {
-  color: #000000;
+  color: #ffffff;
 }
 
 .contactInfo {
@@ -294,7 +256,7 @@
 
 .contactInfo a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 /* FOOTER SECTION */
