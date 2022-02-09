@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <div className="footer">
-      <p>© 2022 Jacob Nordan</p>
+      <h1>&#123; JN &#125;</h1>
     </div>
   );
 }
