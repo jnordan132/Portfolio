@@ -1,10 +1,3 @@
-import {
-  FaGithub,
-  FaLinkedin,
-  FaClipboardList,
-  FaEnvelope,
-} from "react-icons/fa";
-
 const styles = {
   listItem: {
     height: "150%",
@@ -23,7 +16,7 @@ function Contact() {
             rel="noreferrer"
             href="https://github.com/jnordan132"
           >
-            <FaGithub style={styles.listItem} />
+            <img style={{ width: "30%"}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
           </a>
         </li>
         <li>
@@ -32,7 +25,7 @@ function Contact() {
             rel="noreferrer"
             href="https://www.linkedin.com/in/jacob-nordan/"
           >
-            <FaLinkedin style={styles.listItem} />
+            <img style={{ width: "30%"}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" />
           </a>
         </li>
         <li>
@@ -41,12 +34,7 @@ function Contact() {
             rel="noreferrer"
             href="mailto:jacob.nordan113322@gmail.com"
           >
-            <FaEnvelope style={styles.listItem} />
-          </a>
-        </li>
-        <li>
-          <a target="_blank" rel="noreferrer" href="">
-            <FaClipboardList style={styles.listItem} />
+            
           </a>
         </li>
       </ul>

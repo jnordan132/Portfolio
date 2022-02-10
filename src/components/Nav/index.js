@@ -5,7 +5,7 @@ export default class Nav extends React.Component {
     super();
     this.state = {
       show: true,
-      scrollPos: 0,
+      scrollPos: 0
     };
   }
   componentDidMount() {
@@ -26,7 +26,7 @@ export default class Nav extends React.Component {
     return (
       <nav className={this.state.show ? "active" : "hidden"}>
         <div className="navContent">
-          <h1>&#123; JN &#125;</h1>
+          <h1>&#123;JN&#125;</h1>
           <ul>
             <li>
               <a
