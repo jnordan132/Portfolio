@@ -4,10 +4,6 @@ body {
   overflow-x: hidden;
 }
 
-li::marker {
-  color: rgb(0, 0, 0);
-}
-
 /* NAV SECTION */
 
 nav {
@@ -15,7 +11,7 @@ nav {
   width: 100vw;
   top: 0;
   position: fixed;
-  background-color: rgb(100, 159, 175);
+  background-color: #649faf;
   z-index: 1;
 }
 
@@ -181,8 +177,11 @@ nav a:hover {
 }
 
 .list li {
-  text-align: left;
-  display: flex;
+  text-align: center;
+}
+
+.listItem {
+  list-style: none;
 }
 
 .list img {
@@ -254,19 +253,21 @@ nav a:hover {
 
 .contact {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
   width: 25%;
-  background-color: rgb(100, 159, 175);
+  background-color: #649faf;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
     0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11),
     0 8px 16px rgba(0, 0, 0, 0.11);
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
-  transition: 150ms;
   border-top: 1px solid rgb(0, 0, 0, 0.11);
-  margin-bottom: 3%;
+  z-index: 2;
+  position:absolute;
+  /* right: 1; */
+  top: 100
 }
 
 .contact h1 {
@@ -304,7 +305,7 @@ nav a:hover {
 
 @media screen and (max-width: 1500px) {
   .card {
-    flex: 1 1 40%;
+    flex: 1 1 30%;
   }
   .skills {
     width: 40%;
@@ -313,7 +314,7 @@ nav a:hover {
 
 @media screen and (max-width: 1200px) {
   .card {
-    flex: 1 1 40%;
+    flex: 1 1 45%;
   }
   .contact {
     width: 75%;
@@ -332,9 +333,12 @@ nav a:hover {
   html {
     overflow-x: hidden;
   }
+  .header {
+    display: inline;
+  }
   .profilePicture {
-    height: 75%;
-    margin-left: 12%;
+    width: 100%;
+    margin-right: 100%;
   }
   .about {
     width: 38%;
@@ -345,7 +349,8 @@ nav a:hover {
     margin-left: 1%;
   }
   .portfolio {
-    width: 95%;
+    width: 100%;
+    text-align: center;
   }
   .cardDiv {
     flex-direction: column;
