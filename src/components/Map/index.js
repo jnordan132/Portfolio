@@ -1,6 +1,7 @@
 import GoogleMapReact from "google-map-react";
 import { googleMapsArguments } from "../../mapStyles";
 import "../../assets/ping.svg"
+require("dotenv");
 
 const Map = () => {
   const handleApiLoaded = (map, maps) => {
@@ -29,7 +30,7 @@ const Map = () => {
         <div className="col" style={styles.mapStyles}>
           <GoogleMapReact
             bootstrapURLKeys={{
-              key: "AIzaSyBYHsFDTTDPAWdXNnAFgTIqq8ipt9c8r7I",
+              key: process.env.API_KEY,
             }}
             defaultCenter={googleMapsArguments.center}
             defaultZoom={googleMapsArguments.zoom}
