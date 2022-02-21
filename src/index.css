@@ -303,6 +303,7 @@ nav a:hover {
 
 /* MEDIA QUERIES */
 
+/* LARGE TABLET */
 @media screen and (max-width: 1500px) {
   .card {
     flex: 1 1 30%;
@@ -312,6 +313,7 @@ nav a:hover {
   }
 }
 
+/* TABLET */
 @media screen and (max-width: 1200px) {
   .card {
     flex: 1 1 45%;
@@ -328,6 +330,7 @@ nav a:hover {
   }
 }
 
+/* MOBILE */
 @media screen and (max-width: 768px) {
   body,
   html {
