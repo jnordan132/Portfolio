@@ -64,21 +64,21 @@ nav a:hover {
 
 .header {
   height: 62vh;
-  padding-left: 18%;
-  padding-right: 18%;
+  padding-left: 18rem;
+  padding-right: 18rem;
   background-color: rgb(100, 159, 175);
   display: flex;
   margin-bottom: 3%;
 }
 
 .intro {
-  margin-top: 12%;
+   margin-top: 12%;
   letter-spacing: .2rem;
   line-height: 4.2rem;
   font-size: 1.65rem;
   color: #fff;
   text-align: center;
-  margin-right: 13.25%;
+  margin-right: 13.25%; 
 }
 
 .intro div {
@@ -304,17 +304,32 @@ nav a:hover {
 /* MEDIA QUERIES */
 
 /* LARGE TABLET */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1600px) {
   .card {
     flex: 1 1 30%;
   }
   .skills {
     width: 40%;
   }
+  .header {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .intro {
+    font-size: 1.5rem;
+  }
 }
 
 /* TABLET */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
+  .intro {
+    font-size: 1.3rem;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+  }
+  .header {
+    height: 45vh;
+  }
   .card {
     flex: 1 1 45%;
   }
@@ -326,11 +341,19 @@ nav a:hover {
   }
   .skills {
     width: 45%;
-    /* margin-left: 1%; */
   }
 }
 
-/* MOBILE */
+@media screen and (max-width: 1150px) {
+  .header {
+    display: block;
+  }
+  .profilePicture {
+    
+  }
+}
+
+/* TABLET */
 @media screen and (max-width: 768px) {
   body,
   html {
@@ -352,8 +375,10 @@ nav a:hover {
     margin-left: 1%;
   }
   .portfolio {
-    width: 100%;
-    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    /* text-align: center; */
   }
   .cardDiv {
     flex-direction: column;
