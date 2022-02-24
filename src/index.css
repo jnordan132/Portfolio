@@ -434,3 +434,17 @@ nav a:hover {
     line-height: 2.6rem;
   }
 }
+
+@media screen and (max-width: 415px) {
+  .intro h1 {
+    line-height: 2.2rem;
+  }
+  .header {
+    padding-right: 3%;
+    padding-left: 3%;
+    height: 32vh;
+  }
+  .footer {
+    height: 100%;
+  }
+}
