@@ -73,9 +73,9 @@ nav a:hover {
 
 .intro {
   margin-top: 12%;
-  letter-spacing: 1.75px;
-  line-height: 1.25;
-  font-size: 175%;
+  letter-spacing: .2rem;
+  line-height: 4.2rem;
+  font-size: 1.65rem;
   color: #fff;
   text-align: center;
   margin-right: 13.25%;
