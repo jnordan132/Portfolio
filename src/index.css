@@ -321,7 +321,7 @@ nav a:hover {
 }
 
 /* TABLET */
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1300px) {
   .intro {
     font-size: 1.3rem;
     /* margin-right: auto; */
@@ -349,26 +349,34 @@ nav a:hover {
     display: block;
   }
   .profilePicture {
-    
+    display: none
   }
 }
 
 /* TABLET */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1150px) {
   body,
   html {
     overflow-x: hidden;
   }
   .header {
-    display: inline;
+    display: block;
+    height: 35vh;
+  }
+  .intro {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+  }
+  .intro h1 {
+    padding-top: 7%
   }
   .profilePicture {
-    width: 100%;
-    margin-right: 100%;
+    display: none
   }
   .about {
     width: 38%;
-    margin-left: 1%;
+    /* margin-left: 1%; */
   }
   .skills {
     width: 38%;
@@ -378,7 +386,6 @@ nav a:hover {
     margin-right: auto;
     margin-left: auto;
     width: 80%;
-    /* text-align: center; */
   }
   .cardDiv {
     flex-direction: column;
