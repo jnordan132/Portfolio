@@ -195,11 +195,9 @@ nav a:hover {
 /* PORTFOLIO SECTION */
 
 .portfolio {
-  width: auto;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 14%;
-  padding-right: 14%;
   margin-bottom: 3%;
 }
 
@@ -304,12 +302,12 @@ nav a:hover {
 /* MEDIA QUERIES */
 
 /* LARGE TABLET */
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1623px) {
   .card {
     flex: 1 1 30%;
   }
   .skills {
-    width: 40%;
+    width: 50%;
   }
   .header {
     padding-left: 10%;
@@ -328,10 +326,7 @@ nav a:hover {
     /* margin-left: auto; */
   }
   .header {
-    height: 45vh;
-  }
-  .card {
-    flex: 1 1 45%;
+    height: 50vh;
   }
   .contact {
     width: 75%;
@@ -347,6 +342,8 @@ nav a:hover {
 @media screen and (max-width: 1150px) {
   .header {
     display: block;
+    height: 50vh;
+    margin-top: -1%;
   }
   .profilePicture {
     display: none
@@ -380,7 +377,6 @@ nav a:hover {
   }
   .skills {
     width: 38%;
-    margin-left: 1%;
   }
   .portfolio {
     margin-right: auto;
@@ -408,7 +404,33 @@ nav a:hover {
   .contact {
     width: 90%;
   }
-  .footer {
-    height: 1.5%;
+}
+
+@media screen and (max-width: 881px) {
+  .header {
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 573px) {
+  .header {
+    height: 40vh;
+  }
+  .intro h1 {
+    padding-top: 12%;
+    line-height: 3rem
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .header {
+    height: 34vh;
+    padding-right: 8%;
+    padding-left: 8%;
+  }
+  .intro h1 {
+    padding-top: 12%;
+    font-size: 2rem;
+    line-height: 2.6rem;
   }
 }

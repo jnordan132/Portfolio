@@ -6,6 +6,7 @@ import weather from "../../assets/weather.png";
 import readmeGen from "../../assets/readmeGen.png";
 import quiz from "../../assets/codeQuiz.png";
 import noteTaker from "../../assets/NoteTaker.png";
+import PasswordGen from "../../assets/PasswordGen.png";
 
 function Portfolio() {
   return (
@@ -76,6 +77,15 @@ function Portfolio() {
         </div>
       </div>
       <div className="cardDiv">
+      <div className="card">
+          <img src={PasswordGen} alt="Employee Tracker"></img>
+          {/* <h2>
+            <strong>Employee Tracker</strong>
+          </h2> */}
+          {/* <div className="buttons">
+            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/Employee-Tracker">Code</a></button>
+          </div> */}
+        </div>
         <div className="card">
           <img src={readmeGen} alt="readme generator"></img>
           {/* <h2>
@@ -83,15 +93,6 @@ function Portfolio() {
           </h2> */}
           {/* <div className="buttons">
             <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/README-Generator-Node.js">Code</a></button>
-          </div> */}
-        </div>
-        <div className="card">
-          <img src={terminal} alt="Employee Tracker"></img>
-          {/* <h2>
-            <strong>Employee Tracker</strong>
-          </h2> */}
-          {/* <div className="buttons">
-            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/Employee-Tracker">Code</a></button>
           </div> */}
         </div>
         <div className="card">
