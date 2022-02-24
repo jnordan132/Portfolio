@@ -173,7 +173,7 @@ nav a:hover {
 }
 
 .list {
-  list-style: circle;
+  list-style: none;
 }
 
 .list li {
