@@ -233,6 +233,7 @@ nav a:hover {
   border-top: 1px solid rgb(0, 0, 0, 0.11);
   padding-top: 1.5%;
   padding-bottom: 1.5%;
+  margin-bottom: 2%;
 }
 
 .card img {
@@ -260,6 +261,7 @@ nav a:hover {
   margin-right: 1%;
   border-radius: 12px;
   border: 1px solid rgb(100, 159, 175);
+  background-color: #fff;
   font-size: 1.2rem;
 }
 
@@ -465,9 +467,12 @@ nav a:hover {
   .header {
     padding-right: 3%;
     padding-left: 3%;
-    height: 40vh;
+    height: 37vh;
   }
   .footer {
     height: 10%;
+  }
+  .card {
+    height: auto;
   }
 }

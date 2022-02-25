@@ -77,7 +77,7 @@ function Portfolio() {
         </div>
       </div>
       <div className="cardDiv">
-      <div className="card" style={{ height: '258px'}}>
+      <div className="card">
           <img src={PasswordGen} alt="Employee Tracker"></img>
           <h2>
             <strong>Password Generator</strong>
@@ -87,7 +87,7 @@ function Portfolio() {
             <button className="site"><a target="_blank" rel="noopener noreferrer"href="https://jnordan132.github.io/Password-Generator/">Site</a></button>
           </div>
         </div>
-        <div className="card" style={{ height: '258px'}}>
+        <div className="card" >
           <img src={readmeGen} alt="readme generator"></img>
           <h2>
             <strong>README.md Generator</strong>
@@ -96,7 +96,7 @@ function Portfolio() {
             <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/README-Generator-Node.js">Code</a></button>
           </div>
         </div>
-        <div className="card" style={{ height: '258px'}}>
+        <div className="card">
           <img src={terminal} alt="Employee Tracker"></img>
           <h2>
             <strong>Employee Tracker</strong>
