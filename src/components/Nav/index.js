@@ -1,30 +1,10 @@
 import React from "react";
 
 export default class Nav extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      show: true,
-      scrollPos: 0
-    };
-  }
-  componentDidMount() {
-    window.addEventListener("scroll", this.handleScroll);
-  }
-  componentWillUnmount() {
-    window.removeEventListener("scroll", this.handleScroll);
-  }
-  handleScroll = () => {
-    console.log(document.body.getBoundingClientRect);
-    this.setState({
-      scrollPos: document.body.getBoundingClientRect().top,
-      show: document.body.getBoundingClientRect().top > this.state.scrollPos,
-    });
-  };
 
   render() {
     return (
-      <nav className={this.state.show ? "active" : "hidden"}>
+      <nav >
         <div className="navContent">
           <h1>&#123;JN&#125;</h1>
           <ul>
