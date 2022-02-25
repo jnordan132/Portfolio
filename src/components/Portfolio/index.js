@@ -84,7 +84,7 @@ function Portfolio() {
           </h2>
           <div className="buttons">
             <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/Employee-Tracker">Code</a></button>
-            <button className="site"><a target="_blank" rel="noopener noreferrer"href="https://warm-wildwood-42692.herokuapp.com/">Site</a></button>
+            <button className="site"><a target="_blank" rel="noopener noreferrer"href="https://jnordan132.github.io/Password-Generator/">Site</a></button>
           </div>
         </div>
         <div className="card" style={{ height: '258px'}}>
