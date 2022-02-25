@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e16ca580.css",
-    "main.js": "/Portfolio/static/js/main.f3d73dbc.js",
+    "main.css": "/Portfolio/static/css/main.fc8d8efe.css",
+    "main.js": "/Portfolio/static/js/main.7f59aded.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Shoe-Fanatic.png": "/Portfolio/static/media/Shoe-Fanatic.4ef7e3259f9d5ac94574.png",
     "static/media/JacobNordan-2.jpg": "/Portfolio/static/media/JacobNordan-2.a5ab4257733fb3a875c5.jpg",
@@ -15,12 +15,12 @@
     "static/media/codeQuiz.png": "/Portfolio/static/media/codeQuiz.6bffb4c765009680366c.png",
     "static/media/NoteTaker.png": "/Portfolio/static/media/NoteTaker.b72a96bf8a39949081eb.png",
     "index.html": "/Portfolio/index.html",
-    "main.e16ca580.css.map": "/Portfolio/static/css/main.e16ca580.css.map",
-    "main.f3d73dbc.js.map": "/Portfolio/static/js/main.f3d73dbc.js.map",
+    "main.fc8d8efe.css.map": "/Portfolio/static/css/main.fc8d8efe.css.map",
+    "main.7f59aded.js.map": "/Portfolio/static/js/main.7f59aded.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e16ca580.css",
-    "static/js/main.f3d73dbc.js"
+    "static/css/main.fc8d8efe.css",
+    "static/js/main.7f59aded.js"
   ]
 }
