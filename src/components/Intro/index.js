@@ -1,4 +1,4 @@
-import resume from "../../assets/JN_Resume.pdf";
+import resume from "../../assets/Jacob-Nordan-Resume.pdf";
 
 function Intro() {
   return (
