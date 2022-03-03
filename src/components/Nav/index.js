@@ -6,7 +6,7 @@ export default class Nav extends React.Component {
     return (
       <nav >
         <div className="navContent">
-          <h1>&#123;JN&#125;</h1>
+          <h1>&#60; JN &#47;&#62;</h1>
           <ul>
             <li>
               <a

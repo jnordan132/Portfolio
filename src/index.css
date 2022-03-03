@@ -19,17 +19,18 @@ nav {
   display: flex;
   padding-left: 15%;
   padding-right: 15%;
+  padding-top: .5%;
 }
 
 nav h1 {
   margin: 0;
-  padding-top: 1.5%;
+  margin-top: auto;
+  margin-bottom: auto;
   color: #fff;
   cursor: default;
 }
 
 nav ul {
-  padding-top: 0.75%;
   display: flex;
   list-style: none;
 }
@@ -159,6 +160,11 @@ nav a:hover {
   color: #3a3a3a;
   font-size: 120%;
   justify-content: space-between;
+}
+
+.skills li img {
+  margin-left: 6px;
+  margin-right: 6px;
 }
 
 .list {
@@ -297,6 +303,8 @@ nav a:hover {
   height: 8%;
   position: absolute;
   background-color: rgb(100, 159, 175);
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .footer h1 {
@@ -312,7 +320,7 @@ nav a:hover {
     flex: 1 1 30%;
   }
   .skills {
-    width: 50%;
+    /* width: 50%; */
   }
   .header {
     padding-left: 10%;
@@ -335,10 +343,10 @@ nav a:hover {
     width: 75%;
   }
   .about {
-    width: 45%;
+    width: 44%;
   }
   .skills {
-    width: 45%;
+    width: 46%;
   }
   .card {
     margin-bottom: 3%;
@@ -388,6 +396,10 @@ nav a:hover {
   }
   .skills {
     width: 38%;
+  }
+  .skills li img {
+    margin-left: 4px;
+    margin-right: 4px;
   }
   .portfolio {
     margin-right: auto;
@@ -460,7 +472,6 @@ nav a:hover {
   .header {
     padding-right: 3%;
     padding-left: 3%;
-    /* height: 35vh; */
   }
   .footer {
     height: 10%;
@@ -470,5 +481,12 @@ nav a:hover {
   }
   .contactCard {
     width: 65%;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .skills li img {
+    margin-left: 2px;
+    margin-right: 2px;
   }
 }
