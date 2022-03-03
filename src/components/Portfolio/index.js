@@ -19,8 +19,24 @@ function Portfolio() {
             <strong>Shoe Fanatic</strong>
           </h2>
           <div className="buttons">
-            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/Shoe-Fanatic">Code</a></button>
-            <button className="site"><a target="_blank" rel="noopener noreferrer"href="https://limitless-bastion-50224.herokuapp.com/">Site</a></button>
+            <button className="code">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/jnordan132/Shoe-Fanatic"
+              >
+                Code
+              </a>
+            </button>
+            <button className="site">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://limitless-bastion-50224.herokuapp.com/"
+              >
+                Site
+              </a>
+            </button>
           </div>
         </div>
         <div className="card">
@@ -29,8 +45,24 @@ function Portfolio() {
             <strong>FEEDIT</strong>
           </h2>
           <div className="buttons">
-            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/FEEDIT">Code</a></button>
-            <button className="site"><a target="_blank" rel="noopener noreferrer"href="https://jnordan132.github.io/FEEDIT/">Site</a></button>
+            <button className="code">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/jnordan132/FEEDIT"
+              >
+                Code
+              </a>
+            </button>
+            <button className="site">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://jnordan132.github.io/FEEDIT/"
+              >
+                Site
+              </a>
+            </button>
           </div>
         </div>
         <div className="card">
@@ -39,8 +71,24 @@ function Portfolio() {
             <strong>JavaScript Quiz</strong>
           </h2>
           <div className="buttons">
-            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/Javascript-Fundamentals-Quiz">Code</a></button>
-            <button className="site"><a target="_blank" rel="noopener noreferrer"href="https://jnordan132.github.io/Javascript-Fundamentals-Quiz/">Site</a></button>
+            <button className="code">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/jnordan132/Javascript-Fundamentals-Quiz"
+              >
+                Code
+              </a>
+            </button>
+            <button className="site">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://jnordan132.github.io/Javascript-Fundamentals-Quiz/"
+              >
+                Site
+              </a>
+            </button>
           </div>
         </div>
       </div>
@@ -51,8 +99,24 @@ function Portfolio() {
             <strong>Note Taker</strong>
           </h2>
           <div className="buttons">
-            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/Note-Taker">Code</a></button>
-            <button className="site"><a target="_blank" rel="noopener noreferrer"href="https://note-taker-jacobnordan.herokuapp.com/notes">Site</a></button>
+            <button className="code">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/jnordan132/Note-Taker"
+              >
+                Code
+              </a>
+            </button>
+            <button className="site">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://note-taker-jacobnordan.herokuapp.com/notes"
+              >
+                Site
+              </a>
+            </button>
           </div>
         </div>
         <div className="card">
@@ -61,8 +125,24 @@ function Portfolio() {
             <strong>Weather Dashboard</strong>
           </h2>
           <div className="buttons">
-            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/City-Weather-Dashboard">Code</a></button>
-            <button className="site"><a target="_blank" rel="noopener noreferrer"href="https://jnordan132.github.io/City-Weather-Dashboard/">Site</a></button>
+            <button className="code">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/jnordan132/City-Weather-Dashboard"
+              >
+                Code
+              </a>
+            </button>
+            <button className="site">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://jnordan132.github.io/City-Weather-Dashboard/"
+              >
+                Site
+              </a>
+            </button>
           </div>
         </div>
         <div className="card">
@@ -71,20 +151,52 @@ function Portfolio() {
             <strong>Fitness Tracker</strong>
           </h2>
           <div className="buttons">
-            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/Fitness-Tracker">Code</a></button>
-            <button className="site"><a target="_blank" rel="noopener noreferrer"href="https://warm-wildwood-42692.herokuapp.com/">Site</a></button>
+            <button className="code">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/jnordan132/Fitness-Tracker"
+              >
+                Code
+              </a>
+            </button>
+            <button className="site">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://warm-wildwood-42692.herokuapp.com/"
+              >
+                Site
+              </a>
+            </button>
           </div>
         </div>
       </div>
       <div className="cardDiv">
-      <div className="card">
+        <div className="card">
           <img src={PasswordGen} alt="Employee Tracker"></img>
           <h2>
             <strong>Password Generator</strong>
           </h2>
           <div className="buttons">
-            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/Password-Generator">Code</a></button>
-            <button className="site"><a target="_blank" rel="noopener noreferrer"href="https://jnordan132.github.io/Password-Generator/">Site</a></button>
+            <button className="code">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/jnordan132/Password-Generator"
+              >
+                Code
+              </a>
+            </button>
+            <button className="site">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://jnordan132.github.io/Password-Generator/"
+              >
+                Site
+              </a>
+            </button>
           </div>
         </div>
         <div className="card">
@@ -93,7 +205,15 @@ function Portfolio() {
             <strong>README.md Generator</strong>
           </h2>
           <div className="buttons">
-            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/README-Generator-Node.js">Code</a></button>
+            <button className="code">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/jnordan132/README-Generator-Node.js"
+              >
+                Code
+              </a>
+            </button>
           </div>
         </div>
         <div className="card">
@@ -102,7 +222,15 @@ function Portfolio() {
             <strong>Employee Tracker</strong>
           </h2>
           <div className="buttons">
-            <button className="code"><a target="_blank" rel="noopener noreferrer"href="https://github.com/jnordan132/Employee-Tracker">Code</a></button>
+            <button className="code">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/jnordan132/Employee-Tracker"
+              >
+                Code
+              </a>
+            </button>
           </div>
         </div>
       </div>
