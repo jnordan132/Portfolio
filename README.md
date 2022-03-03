@@ -3,3 +3,6 @@ This is my personal portfolio website, created to display all of my previous pro
 
 ## Technologies
 To develop my portfolio website, I took advantage of React and Matieral UI to make a simplistic yet thought out approach on how I wanted my site to be setup.
+
+## Live Site
+[https://jnordan132.github.io/Portfolio/](Jacob Nordan | Fullstack Developer)
