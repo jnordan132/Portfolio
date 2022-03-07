@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.aa865f42.css",
-    "main.js": "/Portfolio/static/js/main.9e81f520.js",
+    "main.css": "/Portfolio/static/css/main.6a129ef3.css",
+    "main.js": "/Portfolio/static/js/main.98555d2f.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/Shoe-Fanatic.png": "/Portfolio/static/media/Shoe-Fanatic.4ef7e3259f9d5ac94574.png",
     "static/media/JacobNordan-2.jpg": "/Portfolio/static/media/JacobNordan-2.a5ab4257733fb3a875c5.jpg",
     "static/media/Feedit.png": "/Portfolio/static/media/Feedit.7d2c48d3bbdbb486ce42.png",
     "static/media/PasswordGen.png": "/Portfolio/static/media/PasswordGen.ca6843230b4c0a349c67.png",
+    "static/media/KB.png": "/Portfolio/static/media/KB.67b10b3cf8771543b909.png",
     "static/media/employeeTracker.jpg": "/Portfolio/static/media/employeeTracker.96d7dd9c55a50759ac92.jpg",
     "static/media/weather.png": "/Portfolio/static/media/weather.d294e7ab817ed196a868.png",
     "static/media/readmeGen.png": "/Portfolio/static/media/readmeGen.d2d3a93cc91a692cd5ff.png",
@@ -15,12 +16,12 @@
     "static/media/codeQuiz.png": "/Portfolio/static/media/codeQuiz.6bffb4c765009680366c.png",
     "static/media/NoteTaker.png": "/Portfolio/static/media/NoteTaker.b72a96bf8a39949081eb.png",
     "index.html": "/Portfolio/index.html",
-    "main.aa865f42.css.map": "/Portfolio/static/css/main.aa865f42.css.map",
-    "main.9e81f520.js.map": "/Portfolio/static/js/main.9e81f520.js.map",
+    "main.6a129ef3.css.map": "/Portfolio/static/css/main.6a129ef3.css.map",
+    "main.98555d2f.js.map": "/Portfolio/static/js/main.98555d2f.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa865f42.css",
-    "static/js/main.9e81f520.js"
+    "static/css/main.6a129ef3.css",
+    "static/js/main.98555d2f.js"
   ]
 }
