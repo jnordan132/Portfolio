@@ -7,6 +7,7 @@ import readmeGen from "../../assets/readmeGen.png";
 import quiz from "../../assets/codeQuiz.png";
 import noteTaker from "../../assets/NoteTaker.png";
 import PasswordGen from "../../assets/PasswordGen.png";
+import KB from "../../assets/KB.png";
 
 function Portfolio() {
   return (
@@ -233,6 +234,34 @@ function Portfolio() {
             </button>
           </div>
         </div>
+        <div className="card">
+          <img src={KB} alt="Kibarake Social Media Directory"></img>
+          <h2>
+            <strong>Kibarake Social Media Directory</strong>
+          </h2>
+          <div className="buttons">
+            <button className="code">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/jnordan132/Kibarake-Social-Site"
+              >
+                Code
+              </a>
+            </button>
+            <button className="site">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://kibarake.herokuapp.com/"
+              >
+                Site
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="cardDiv">
       </div>
     </div>
   );
