@@ -459,6 +459,9 @@ nav a:hover {
     font-size: 2rem;
     line-height: 2.6rem;
   }
+  .navContent h1 {
+    size: 90%;
+  }
 }
 
 @media screen and (max-width: 415px) {
